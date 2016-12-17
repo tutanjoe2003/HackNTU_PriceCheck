@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CB7DB261E04E0A700236B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB251E04E0A700236B94 /* AppDelegate.swift */; };
+		7CB7DB281E04E0A700236B94 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB271E04E0A700236B94 /* FirstViewController.swift */; };
+		7CB7DB2A1E04E0A700236B94 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB291E04E0A700236B94 /* SecondViewController.swift */; };
+		7CB7DB2D1E04E0A700236B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7DB2B1E04E0A700236B94 /* Main.storyboard */; };
+		7CB7DB2F1E04E0A700236B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7DB2E1E04E0A700236B94 /* Assets.xcassets */; };
+		7CB7DB321E04E0A700236B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7DB301E04E0A700236B94 /* LaunchScreen.storyboard */; };
+		7CB7DB3D1E04E0A700236B94 /* HackNTU_PriceCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB3C1E04E0A700236B94 /* HackNTU_PriceCheckTests.swift */; };
+		7CB7DB481E04E0A700236B94 /* HackNTU_PriceCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB471E04E0A700236B94 /* HackNTU_PriceCheckUITests.swift */; };
+		7CB7DB561E04E47200236B94 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB551E04E47200236B94 /* ThirdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CB7DB391E04E0A700236B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB7DB1A1E04E0A600236B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB7DB211E04E0A600236B94;
+			remoteInfo = HackNTU_PriceCheck;
+		};
+		7CB7DB441E04E0A700236B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB7DB1A1E04E0A600236B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB7DB211E04E0A600236B94;
+			remoteInfo = HackNTU_PriceCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CB7DB221E04E0A600236B94 /* HackNTU_PriceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackNTU_PriceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB7DB251E04E0A700236B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CB7DB271E04E0A700236B94 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7CB7DB291E04E0A700236B94 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7CB7DB2C1E04E0A700236B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CB7DB2E1E04E0A700236B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CB7DB311E04E0A700236B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CB7DB331E04E0A700236B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB7DB381E04E0A700236B94 /* HackNTU_PriceCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackNTU_PriceCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB7DB3C1E04E0A700236B94 /* HackNTU_PriceCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNTU_PriceCheckTests.swift; sourceTree = "<group>"; };
+		7CB7DB3E1E04E0A700236B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB7DB431E04E0A700236B94 /* HackNTU_PriceCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackNTU_PriceCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB7DB471E04E0A700236B94 /* HackNTU_PriceCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNTU_PriceCheckUITests.swift; sourceTree = "<group>"; };
+		7CB7DB491E04E0A700236B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB7DB551E04E47200236B94 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CB7DB1F1E04E0A600236B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB7DB351E04E0A700236B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB7DB401E04E0A700236B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CB7DB191E04E0A600236B94 = {
+			isa = PBXGroup;
+			children = (
+				7CB7DB241E04E0A600236B94 /* HackNTU_PriceCheck */,
+				7CB7DB3B1E04E0A700236B94 /* HackNTU_PriceCheckTests */,
+				7CB7DB461E04E0A700236B94 /* HackNTU_PriceCheckUITests */,
+				7CB7DB231E04E0A600236B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CB7DB231E04E0A600236B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB7DB221E04E0A600236B94 /* HackNTU_PriceCheck.app */,
+				7CB7DB381E04E0A700236B94 /* HackNTU_PriceCheckTests.xctest */,
+				7CB7DB431E04E0A700236B94 /* HackNTU_PriceCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CB7DB241E04E0A600236B94 /* HackNTU_PriceCheck */ = {
+			isa = PBXGroup;
+			children = (
+				7CB7DB251E04E0A700236B94 /* AppDelegate.swift */,
+				7CB7DB271E04E0A700236B94 /* FirstViewController.swift */,
+				7CB7DB291E04E0A700236B94 /* SecondViewController.swift */,
+				7CB7DB2B1E04E0A700236B94 /* Main.storyboard */,
+				7CB7DB551E04E47200236B94 /* ThirdViewController.swift */,
+				7CB7DB2E1E04E0A700236B94 /* Assets.xcassets */,
+				7CB7DB301E04E0A700236B94 /* LaunchScreen.storyboard */,
+				7CB7DB331E04E0A700236B94 /* Info.plist */,
+			);
+			path = HackNTU_PriceCheck;
+			sourceTree = "<group>";
+		};
+		7CB7DB3B1E04E0A700236B94 /* HackNTU_PriceCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB7DB3C1E04E0A700236B94 /* HackNTU_PriceCheckTests.swift */,
+				7CB7DB3E1E04E0A700236B94 /* Info.plist */,
+			);
+			path = HackNTU_PriceCheckTests;
+			sourceTree = "<group>";
+		};
+		7CB7DB461E04E0A700236B94 /* HackNTU_PriceCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB7DB471E04E0A700236B94 /* HackNTU_PriceCheckUITests.swift */,
+				7CB7DB491E04E0A700236B94 /* Info.plist */,
+			);
+			path = HackNTU_PriceCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CB7DB211E04E0A600236B94 /* HackNTU_PriceCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB7DB4C1E04E0A700236B94 /* Build configuration list for PBXNativeTarget "HackNTU_PriceCheck" */;
+			buildPhases = (
+				7CB7DB1E1E04E0A600236B94 /* Sources */,
+				7CB7DB1F1E04E0A600236B94 /* Frameworks */,
+				7CB7DB201E04E0A600236B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackNTU_PriceCheck;
+			productName = HackNTU_PriceCheck;
+			productReference = 7CB7DB221E04E0A600236B94 /* HackNTU_PriceCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CB7DB371E04E0A700236B94 /* HackNTU_PriceCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB7DB4F1E04E0A700236B94 /* Build configuration list for PBXNativeTarget "HackNTU_PriceCheckTests" */;
+			buildPhases = (
+				7CB7DB341E04E0A700236B94 /* Sources */,
+				7CB7DB351E04E0A700236B94 /* Frameworks */,
+				7CB7DB361E04E0A700236B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB7DB3A1E04E0A700236B94 /* PBXTargetDependency */,
+			);
+			name = HackNTU_PriceCheckTests;
+			productName = HackNTU_PriceCheckTests;
+			productReference = 7CB7DB381E04E0A700236B94 /* HackNTU_PriceCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CB7DB421E04E0A700236B94 /* HackNTU_PriceCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB7DB521E04E0A700236B94 /* Build configuration list for PBXNativeTarget "HackNTU_PriceCheckUITests" */;
+			buildPhases = (
+				7CB7DB3F1E04E0A700236B94 /* Sources */,
+				7CB7DB401E04E0A700236B94 /* Frameworks */,
+				7CB7DB411E04E0A700236B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB7DB451E04E0A700236B94 /* PBXTargetDependency */,
+			);
+			name = HackNTU_PriceCheckUITests;
+			productName = HackNTU_PriceCheckUITests;
+			productReference = 7CB7DB431E04E0A700236B94 /* HackNTU_PriceCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CB7DB1A1E04E0A600236B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "TuDou Team";
+				TargetAttributes = {
+					7CB7DB211E04E0A600236B94 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 94PKAG84HZ;
+						ProvisioningStyle = Automatic;
+					};
+					7CB7DB371E04E0A700236B94 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 94PKAG84HZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CB7DB211E04E0A600236B94;
+					};
+					7CB7DB421E04E0A700236B94 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 94PKAG84HZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CB7DB211E04E0A600236B94;
+					};
+				};
+			};
+			buildConfigurationList = 7CB7DB1D1E04E0A600236B94 /* Build configuration list for PBXProject "HackNTU_PriceCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CB7DB191E04E0A600236B94;
+			productRefGroup = 7CB7DB231E04E0A600236B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CB7DB211E04E0A600236B94 /* HackNTU_PriceCheck */,
+				7CB7DB371E04E0A700236B94 /* HackNTU_PriceCheckTests */,
+				7CB7DB421E04E0A700236B94 /* HackNTU_PriceCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CB7DB201E04E0A600236B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB7DB321E04E0A700236B94 /* LaunchScreen.storyboard in Resources */,
+				7CB7DB2F1E04E0A700236B94 /* Assets.xcassets in Resources */,
+				7CB7DB2D1E04E0A700236B94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB7DB361E04E0A700236B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB7DB411E04E0A700236B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CB7DB1E1E04E0A600236B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB7DB2A1E04E0A700236B94 /* SecondViewController.swift in Sources */,
+				7CB7DB261E04E0A700236B94 /* AppDelegate.swift in Sources */,
+				7CB7DB561E04E47200236B94 /* ThirdViewController.swift in Sources */,
+				7CB7DB281E04E0A700236B94 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB7DB341E04E0A700236B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB7DB3D1E04E0A700236B94 /* HackNTU_PriceCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB7DB3F1E04E0A700236B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB7DB481E04E0A700236B94 /* HackNTU_PriceCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CB7DB3A1E04E0A700236B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB7DB211E04E0A600236B94 /* HackNTU_PriceCheck */;
+			targetProxy = 7CB7DB391E04E0A700236B94 /* PBXContainerItemProxy */;
+		};
+		7CB7DB451E04E0A700236B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB7DB211E04E0A600236B94 /* HackNTU_PriceCheck */;
+			targetProxy = 7CB7DB441E04E0A700236B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CB7DB2B1E04E0A700236B94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CB7DB2C1E04E0A700236B94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CB7DB301E04E0A700236B94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CB7DB311E04E0A700236B94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CB7DB4A1E04E0A700236B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CB7DB4B1E04E0A700236B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CB7DB4D1E04E0A700236B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94PKAG84HZ;
+				INFOPLIST_FILE = HackNTU_PriceCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TuDou.HackNTU-PriceCheck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CB7DB4E1E04E0A700236B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94PKAG84HZ;
+				INFOPLIST_FILE = HackNTU_PriceCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TuDou.HackNTU-PriceCheck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7CB7DB501E04E0A700236B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 94PKAG84HZ;
+				INFOPLIST_FILE = HackNTU_PriceCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TuDou.HackNTU-PriceCheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackNTU_PriceCheck.app/HackNTU_PriceCheck";
+			};
+			name = Debug;
+		};
+		7CB7DB511E04E0A700236B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 94PKAG84HZ;
+				INFOPLIST_FILE = HackNTU_PriceCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TuDou.HackNTU-PriceCheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackNTU_PriceCheck.app/HackNTU_PriceCheck";
+			};
+			name = Release;
+		};
+		7CB7DB531E04E0A700236B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 94PKAG84HZ;
+				INFOPLIST_FILE = HackNTU_PriceCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TuDou.HackNTU-PriceCheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HackNTU_PriceCheck;
+			};
+			name = Debug;
+		};
+		7CB7DB541E04E0A700236B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 94PKAG84HZ;
+				INFOPLIST_FILE = HackNTU_PriceCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TuDou.HackNTU-PriceCheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HackNTU_PriceCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CB7DB1D1E04E0A600236B94 /* Build configuration list for PBXProject "HackNTU_PriceCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB7DB4A1E04E0A700236B94 /* Debug */,
+				7CB7DB4B1E04E0A700236B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB7DB4C1E04E0A700236B94 /* Build configuration list for PBXNativeTarget "HackNTU_PriceCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB7DB4D1E04E0A700236B94 /* Debug */,
+				7CB7DB4E1E04E0A700236B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CB7DB4F1E04E0A700236B94 /* Build configuration list for PBXNativeTarget "HackNTU_PriceCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB7DB501E04E0A700236B94 /* Debug */,
+				7CB7DB511E04E0A700236B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CB7DB521E04E0A700236B94 /* Build configuration list for PBXNativeTarget "HackNTU_PriceCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB7DB531E04E0A700236B94 /* Debug */,
+				7CB7DB541E04E0A700236B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CB7DB1A1E04E0A600236B94 /* Project object */;
+}
