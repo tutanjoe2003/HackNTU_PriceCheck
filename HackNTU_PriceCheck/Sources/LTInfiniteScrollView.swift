@@ -36,7 +36,7 @@ open class LTInfiniteScrollView: UIView {
         super.init(coder: aDecoder)
         self.setup()
     }
-        
+    
     open var pagingEnabled = false {
         didSet {
             scrollView.isPagingEnabled = pagingEnabled
@@ -195,7 +195,7 @@ open class LTInfiniteScrollView: UIView {
         }
     }
     
-
+    
     
     // MARK: helper
     fileprivate func needsCenterPage() -> Bool {
@@ -270,7 +270,7 @@ extension LTInfiniteScrollView: UIScrollViewDelegate {
     }
     
     public func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
-    
+        
         guard let maxScrollDistance = maxScrollDistance , maxScrollDistance > 0 else {
             return
         }

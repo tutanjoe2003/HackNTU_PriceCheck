@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0D5AE81E0D736500575307 /* LTInfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D5AE71E0D736500575307 /* LTInfiniteScrollView.swift */; };
 		7CB7DB261E04E0A700236B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB251E04E0A700236B94 /* AppDelegate.swift */; };
 		7CB7DB281E04E0A700236B94 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB271E04E0A700236B94 /* FirstViewController.swift */; };
 		7CB7DB2A1E04E0A700236B94 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB7DB291E04E0A700236B94 /* SecondViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C0D5AE71E0D736500575307 /* LTInfiniteScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LTInfiniteScrollView.swift; path = HackNTU_PriceCheck/Sources/LTInfiniteScrollView.swift; sourceTree = SOURCE_ROOT; };
 		7CB7DB221E04E0A600236B94 /* HackNTU_PriceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackNTU_PriceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB7DB251E04E0A700236B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB7DB271E04E0A700236B94 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C0D5AE91E0D737400575307 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7C0D5AE71E0D736500575307 /* LTInfiniteScrollView.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
 		7CB7DB191E04E0A600236B94 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 				7CB7DB2E1E04E0A700236B94 /* Assets.xcassets */,
 				7CB7DB301E04E0A700236B94 /* LaunchScreen.storyboard */,
 				7CB7DB331E04E0A700236B94 /* Info.plist */,
+				7C0D5AE91E0D737400575307 /* Sources */,
 			);
 			path = HackNTU_PriceCheck;
 			sourceTree = "<group>";
@@ -270,6 +281,7 @@
 			files = (
 				7CB7DB2A1E04E0A700236B94 /* SecondViewController.swift in Sources */,
 				7CB7DB261E04E0A700236B94 /* AppDelegate.swift in Sources */,
+				7C0D5AE81E0D736500575307 /* LTInfiniteScrollView.swift in Sources */,
 				7CB7DB561E04E47200236B94 /* ThirdViewController.swift in Sources */,
 				7CB7DB281E04E0A700236B94 /* FirstViewController.swift in Sources */,
 			);
@@ -425,10 +437,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 94PKAG84HZ;
 				INFOPLIST_FILE = HackNTU_PriceCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TuDou.HackNTU-PriceCheck";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -438,10 +452,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 94PKAG84HZ;
 				INFOPLIST_FILE = HackNTU_PriceCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TuDou.HackNTU-PriceCheck";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -522,6 +538,7 @@
 				7CB7DB4E1E04E0A700236B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CB7DB4F1E04E0A700236B94 /* Build configuration list for PBXNativeTarget "HackNTU_PriceCheckTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +547,7 @@
 				7CB7DB511E04E0A700236B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CB7DB521E04E0A700236B94 /* Build configuration list for PBXNativeTarget "HackNTU_PriceCheckUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +556,7 @@
 				7CB7DB541E04E0A700236B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
